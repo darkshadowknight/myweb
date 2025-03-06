@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lucida Console", monospace;
+}
+body {
+    background-color: #1a1a2e;
+    color: white;
+    text-align: center;
+}
+section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+}
+#Sung_Jin_Woo{
+    background: url('picture/jinwoframe.jpg') no-repeat center center/cover;
+}
+#jinwoframe{
+    position: relative;
+    right: 400px;
+    top: -10%;
+    padding: 10px;
+}
+#p_jinwo{
+    font-size: 20px;
+    position: relative;
+    right: 400px;
+    top: -10%;
+}
